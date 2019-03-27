@@ -1,58 +1,14 @@
-[![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3)
+The primary purpose of this starter kit is, to provide a solid guideline with respect to building enterprise level projects, by utilizing new asp.net and Sql server features, as well as latest best coding practices.
 
-...
+Since its first release, by April 2008, this open source project gained a huge popularity in the developer community and had 1, 75,000+ combined downloads.
 
-# Getting Started with EISK Web Api
-
-EISK makes it easy to write scalable and secured web api on top of Microsoft's new cutting edge .net core technologies. 
-
-With an optional set of customizable utility classes, samples and tools, it lets you creating new web api straight away without wide technical experience or learning curve.
+This starter kit is honored to be placed at the official ASP.NET site, along with other Asp.Net starter kits, which all are being considered as the “Best” Asp.Net coding standards, recommended by Microsoft. In a weekly show of Microsoft’s [Channel 9](http://channel9.msdn.com/Shows/This+Week+On+Channel+9/TWC9-New-Mix-Sessions-announced-dissecting-IE9-Performance-Azure-Toolkit-for-WP7), it has been appreciated by Microsoft Director Dan Fernandez.
 
 ## Give a Star! :star:
 
 If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK/eisk.webapi). Thanks!
 
-## Sample Use Case
-
-Using a simple table entity 'Employee' it demonstrates all aspect of web development including layered architecture following DDD, micro service, unit and integration tests, building and deploying in cloud environment. 
-
-Here is a simple CRUD use case illustrated in the default template:
-
-* Creating a new employee record
-* Read existing employee records
-* Update an existing employee record
-* Delete existing employee records
-
-## Core Technology Areas
-
-* ASP.NET Core 2.0 (Web Api)
-* Entity Framework Core 2.0
-* C# 7.0
-* Visual Studio 2017
-* Azure App Services 
-
-## System Requirements (Development)
-
-* Visual Studio 2017 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
-
-## QuickStart Guide
-
-Getting started with EISK Web Api is pretty easy. 
-
-You can either [clone](https://github.com/EISK/eisk.webapi.git) from github or simply run the following `dotnet new` command in command prompt to create a new project from EISK:
-
-* Command to install EISK template in your machine: `dotnet new -i eisk.webapi`
-* Command to create a new project: `dotnet new eiskwebapi -n Eisk`
-
-Once the contents are available, just open the created solution, select "Eisk.WebApi" as startup project and press F5!
-
-That's it!
-
 ## What's Next?
-
-After running the created project successfully, you'll get an understanding about how the sample use case has been used to explore cutting edge technologies for building a web api.
-
-Next - you can try some hands-on experience by creating your own api on top of your custom entity and see how quickly you can roll out an enterprise quality web api with similar quality and productivity. 
 
 Utilities and code samples as provided in EISK have intentionally been designed to be self explaining. You may still want to get deeper understanding by exploring the documentations:
 
