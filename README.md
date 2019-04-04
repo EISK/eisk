@@ -6,6 +6,10 @@ Here we’ve tried to summarize a list of top technologies that can be used to b
 
 Few fundamental or basic considerations, such as programming/scripting languages, operating system choices, additional tooling etc have been intentionally ignored to make the list simple.
 
+## Give a Star! :star:
+
+If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK). Thanks!
+
 ## Diagram
 
 ![Awesome Cloud Architecture](https://raw.githubusercontent.com/EISK/eisk/master/awesome-cloud-architecture.png)
@@ -43,7 +47,7 @@ Few fundamental or basic considerations, such as programming/scripting languages
 | -           | RDBMS 			                     | Financial Data - Assets, liabilities, income | Sql (Azure) Database                   |
 
 
-## Open Source Project on Awesome Cloud Architecture :star:
+## Open Source Project on Awesome Cloud Architecture
 
 EISK is an open source project that is intended providing developer resources to build scalable applicatations on top of awesome cloud architecture. 
 
