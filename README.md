@@ -6,11 +6,9 @@ Here we’ve tried to summarize a list of top technologies that can be used to b
 
 Few fundamental or basic considerations, such as programming/scripting languages, operating system choices, additional tooling etc have been intentionally ignored to make the list simple.
 
-## Give a Star! :star:
+## Diagram
 
-If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK/eisk). 
-
-![Roadmap](https://raw.githubusercontent.com/EISK/eisk/master/awesome-cloud-architecture.png)
+![Awesome Cloud Architecture](https://raw.githubusercontent.com/EISK/eisk/master/awesome-cloud-architecture.png)
 
 ## Table
 
@@ -32,6 +30,7 @@ If you like or are using this project to learn or start your solution, please gi
 | -           | Server to Client Notification        | Sending monthly summary report               | Azure Notification Hub                 |
 | -           | Report Processing		    		 | Sending monthly summary report               | Azure Scheduler                        |
 | -           | Report Processing                    | Daily operational report                     | Sql Server Reporting Service           |
+| -         | ALM                                  |                                              | Azure DevOps                           |
 | Storage     | Analytics				             | User activity log			                | Cassandra                              |
 | -           | Reporting                            | Daily operational report                     | Sql Server Reporting Service           |
 | -           | Reporting                            | Monthly summary report                     	| Cassandra						         |
@@ -42,10 +41,9 @@ If you like or are using this project to learn or start your solution, please gi
 | -           | Document NoSQL Store                 | Product catalog                              | Azure CosmosDB                         |
 | -           | Graph NoSQL Store                    | Social network graph                         | Neo4J                                  |
 | -           | RDBMS 			                     | Financial Data - Assets, liabilities, income | Sql (Azure) Database                   |
-| ALM         | ALM                                  |                                              | Azure DevOps                           |
 
 
-## Open Source Project on Awesome Cloud Architecture
+## Open Source Project on Awesome Cloud Architecture :star:
 
 EISK is an open source project that is intended providing developer resources to build scalable applicatations on top of awesome cloud architecture. 
 
