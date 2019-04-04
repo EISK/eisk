@@ -10,7 +10,7 @@ Few fundamental or basic considerations, such as programming/scripting languages
 
 If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK/eisk). 
 
-![Roadmap](./awesome-cloud-architecture.png)
+![Roadmap](https://raw.githubusercontent.com/EISK/eisk/master/awesome-cloud-architecture.png)
 
 ## Table
 
