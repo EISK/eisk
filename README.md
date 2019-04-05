@@ -1,60 +1,64 @@
-# Awesome Cloud Architecture
+[![Build status](https://dev.azure.com/EiskOps/Eisk/_apis/build/status/Eisk-WebApi-TemplatePack-CI)](https://dev.azure.com/EiskOps/Eisk/_build/latest?definitionId=3)
 
-While building a scalable system is lot more easier with the advent of cloud technologies, identifying the right fit can be challenging. Usually it may take years of solid experience in architectural space. 
+...
 
-Here we’ve tried to summarize a list of top technologies that can be used to build scalable systems efficiently. 
+# Getting Started with EISK Web Api
 
-Few fundamental or basic considerations, such as programming/scripting languages, operating system choices, additional tooling etc have been intentionally ignored to make the list simple.
+EISK makes it easy to write scalable and secured web api on top of Microsoft's new cutting edge .net core technologies. 
+
+With an optional set of customizable utility classes, samples and tools, it lets you creating new web api straight away without wide technical experience or learning curve.
 
 ## Give a Star! :star:
 
-If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK). Thanks!
+If you like or are using this project to learn or start your solution, please give it a [star](https://github.com/EISK/eisk.webapi). Thanks!
 
-## Diagram
+![eisk web api](https://github.com/EISK/eisk/blob/master/eisk-webapi-small.png)
 
-![Awesome Cloud Architecture](https://raw.githubusercontent.com/EISK/eisk/master/awesome-cloud-architecture.png)
+## Sample Use Case
 
-## Table
+Using a simple table entity 'Employee' it demonstrates all aspect of web development including layered architecture following DDD, micro service, unit and integration tests, building and deploying in cloud environment. 
 
-| Type        | Purpose                              | Use Case                                     | Technology                             
-|-------------|--------------------------------------|----------------------------------------------|----------------------------------------
-| Client Side | Client Framework                     |                                              | [ReactJS](http://reactjs.org)	                             
-| -           | Type System                          |                                              | [TypeScript](https://www.typescriptlang.org)                             
-| -           | Design System                        |                                              | [Ant](https://ant.design)                                    
-| Backend     | Server Side API Framework            |                                              | [ASP.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/web-api)                        
-| -           | Concurrency Framework                |                                              | [.NET Task API](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming)                          |
-| -           | ORM Framework     					 | Manipulating RDMBS data 						| [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)                     
-| -           | Identity Framework  				 | Managing user identity						| [.NET Core Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)                     
-| -           | Cloud Access Framework               | Cloud storage access, logging etc            | [Azure Developer Tools](https://azure.microsoft.com/en-us/tools/)
-| -           | Web Socket                           | Sending monthly summary report               | [SignalIR](https://dotnet.microsoft.com/apps/aspnet/real-time)
-| Services    | Web Application & API Deployment     | Hosting web applications                     | [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
-| -			  | Identity Service			         | Managing user identity                       | [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
-| -			  | Telemetry Event Ingestion            | User activity log (receive)                  | [Azure Event Hub](https://azure.microsoft.com/en-us/services/event-hubs/)
-| -           | Enterprise Search                    | Product search                               | [Azure Search](https://azure.microsoft.com/en-us/services/search/)
-| -           | Prefix-based Search                  | Product search (with prefix)                 | [Azure Search](https://azure.microsoft.com/en-us/services/search/)
-| -           | Recommendation                       | Product recommendation                       | [Azure ML](https://azure.microsoft.com/en-us/services/machine-learning-service/)
-| -           | Server to Client Notification        | Sending monthly summary report               | [Azure Notification Hub](https://azure.microsoft.com/en-us/services/notification-hubs/)                 
-| -           | Report Processing		    		 | Sending monthly summary report               | [Azure Scheduler](https://azure.microsoft.com/en-us/services/scheduler/)                        
-| -           | Report Processing                    | Daily operational report                     | [Azure Sql Database with Power BI](https://docs.microsoft.com/en-us/power-bi/service-azure-and-power-bi#azure-sql-database-and-power-bi)
-| -           | ALM                                  | Application life cycle management            | [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)                           
-| Storage     | Analytics				             | User activity log			                | [Azure CosmosDB: Cassandra as-a-service](https://azure.microsoft.com/en-us/blog/dear-cassandra-developers-welcome-to-azure-cosmosdb/)                             
-| -           | Reporting                            | Daily operational report                     | [Azure Sql Database with Power BI](https://docs.microsoft.com/en-us/power-bi/service-azure-and-power-bi#azure-sql-database-and-power-bi)
-| -           | Reporting                            | Monthly summary report                     	| [Azure Cassandra as-a-service](https://azure.microsoft.com/en-us/blog/dear-cassandra-developers-welcome-to-azure-cosmosdb/)                             
-| -           | Binary content                       | User profile picture, logo                   | [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)                     
-| -           | CDN Cache                            | User profile picture, logo (cached)          | [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/)
-| -           | In Memory Cache                      | User session data                            | [Azure Cache for Redis](https://azure.microsoft.com/en-us/services/cache/)
-| -           | Key Value Pair NoSQL Store           | Shopping cart                                | [Azure Table Storage](https://azure.microsoft.com/en-us/services/storage/tables/)
-| -           | Document NoSQL Store                 | Product catalog                              | [Azure CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
-| -           | Graph NoSQL Store                    | Social network graph                         | [Azure CosmosDB: Gremlin API](https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction)
-| -           | RDBMS 			                     | Financial data - Assets, liabilities, income | [Azure Sql Database](https://azure.microsoft.com/en-us/services/sql-database/)                   
+Here is a simple CRUD use case illustrated in the default template:
 
+* Creating a new employee record
+* Read existing employee records
+* Update an existing employee record
+* Delete existing employee records
 
-## Open Source Project on Awesome Cloud Architecture
+## Core Technology Areas
 
-EISK is an open source project that is intended providing developer resources to build scalable applicatations on top of awesome cloud architecture. 
+* ASP.NET Core (Web Api)
+* Entity Framework Core
+* C# 
+* Visual Studio 
+* Azure App Services 
 
-Already a [web api](https://github.com/EISK/eisk.webapi) project has been released to illustrate implementation best practices and more to come.
+## System Requirements (Development)
 
-Stay in touch for updates by bookmarking the project in [github](https://github.com/EISK/eisk).
+* Visual Studio 2017 ([Free](https://visualstudio.microsoft.com/vs/community/) Community Edition or higher)
 
-Enjoy!
+## QuickStart Guide
+
+Getting started with EISK Web Api is pretty easy. 
+
+You can either [clone](https://github.com/EISK/eisk.webapi.git) from github or simply run the following `dotnet new` command in command prompt to create a new project from EISK:
+
+* Command to install EISK template in your machine: `dotnet new -i eisk.webapi`
+* Command to create a new project: `dotnet new eiskwebapi -n Eisk`
+
+Once the contents are available, just open the created solution, select "Eisk.WebApi" as startup project and press F5!
+
+That's it!
+
+## What's Next?
+
+After running the created project successfully, you'll get an understanding about how the sample use case has been used to explore cutting edge technologies for building a web api.
+
+Next - you can try some hands-on experience by creating your own api on top of your custom entity and see how quickly you can roll out an enterprise quality web api with similar quality and productivity. 
+
+Utilities and code samples as provided in EISK have intentionally been designed to be self explaining. You may still want to get deeper understanding by exploring the documentations:
+
+* [Live Demo](https://eiskwebapi.azurewebsites.net)
+* [Hands-on Walk-through](https://eisk.github.io/eisk.webapi/docs/application-development/handson-walkthrough-create-service-api.html)
+* [Logical Layer Architecture](https://eisk.github.io/eisk.webapi/docs/architecture/logical-layers.html)
+* [Technology Stack](https://eisk.github.io/eisk.webapi/docs/technical-reference/technology-stack.html)
