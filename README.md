@@ -21,7 +21,7 @@ If you like or are using this project to learn or start your solution, please gi
 | Client Side | Client Framework                     |                                              | ReactJS	                             |
 | -           | Type System                          |                                              | TypeScript                             |
 | -           | Design System                        |                                              | Ant                                    |
-| Backend     | Server Side API Framework            |                                              | ASP.NET Web API                        |
+| Backend     | Server Side API Framework            |                                              | [ASP.NET Web API](https://github.com/eisk/eisk.webapi)                        
 | -           | Concurrency Framework                |                                              | .NET Task API                          |
 | -           | Web Application & API Deployment     |                                              | Azure Web Role                         |
 | -           | Relational Data Access Framework     | Financial Data - Assets, liabilities, income | Entity Framework                       |
@@ -34,7 +34,7 @@ If you like or are using this project to learn or start your solution, please gi
 | -           | Server to Client Notification        | Sending monthly summary report               | Azure Notification Hub                 |
 | -           | Report Processing		    		 | Sending monthly summary report               | Azure Scheduler                        |
 | -           | Report Processing                    | Daily operational report                     | Sql Server Reporting Service           |
-| -         | ALM                                  |                                              | Azure DevOps                           |
+| -           | ALM                                  |                                              | Azure DevOps                           |
 | Storage     | Analytics				             | User activity log			                | Cassandra                              |
 | -           | Reporting                            | Daily operational report                     | Sql Server Reporting Service           |
 | -           | Reporting                            | Monthly summary report                     	| Cassandra						         |
